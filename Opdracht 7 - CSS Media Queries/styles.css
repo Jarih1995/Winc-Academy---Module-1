@@ -1,0 +1,114 @@
+/*
+// Smartphones (portrait)
+minimale breedte : 320px;
+
+// Tablets (portrait)
+minimale breedte : 768px
+
+// Desktop 
+minimale breedte : 1024px
+*/
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#333333;
+
+}
+
+header {
+    background-color: #172c88;
+    color: #f4f4f4;
+    border: 5px #333333 outset;   
+    margin: 0 auto;
+}
+
+main{
+    border-left: 5px solid #333333;
+    border-right: 5px solid #333333;
+    align-content: center;
+}
+
+nav{
+   margin: 0px auto;
+   padding: 30px 0px 10px 0px;
+   width: 100%;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 3px #172c88 double;
+    border-bottom: 5px solid #333333;
+    border-left: 5px solid #333333;
+    border-right: 5px solid #333333;
+}
+
+h1 {
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 32px;
+}
+
+h2 {
+
+    font-size: 16px;
+}
+
+p{
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
+    width: 95%;   
+}
+
+main a{
+    margin: 20px;
+}
+img{
+    margin-left: 20px;
+}
+.blackBorder {
+    background-color: #ffffff;
+    padding: 30px 20px 10px 20px;
+    Margin: 20px;
+}
+.blackBorder ul{
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.topNav {
+    text-align: center;
+}
+
+.topNavListItem{
+    list-style: none;
+    display: inline; 
+    padding: 10px 0px 10px 0px;
+    border: 3px solid #333333;
+    background-color: #ffffff;
+}
+
+@media (min-width: 1024px) {
+
+body{
+    background-color: aquamarine;
+    color: red;
+    font-size: 20px;  
+    font-weight: 500;  
+    line-height: 1.5em;
+} 
+H1{
+    font-size: 48px;
+}
+h2  {
+    font-size: 24px;
+}
+
+}
