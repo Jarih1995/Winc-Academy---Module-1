@@ -1,0 +1,425 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #333333;
+    font-family: lato, sans-serif;
+    height: 100%;
+}
+
+h1{
+    font-size: 48px;
+    font-family: 'DM Serif Text', serif;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-size: 24px;
+    line-height: 20px;
+}
+
+h3{
+    font-size: 20px;
+    color: #333;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 0px;
+}
+
+h4{
+    font-weight: 200;
+    font-size: 20px;
+    padding: 40px 20px;
+}
+
+a{
+    font-size: 16px;
+    margin-top: 20px;
+    width: fit-content;
+    padding-bottom: 12px;
+    cursor: pointer;
+    border-bottom: 2px #333 solid;
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: 800;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header nav{
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+    color-adjust: #333333;
+}
+
+header nav a{
+    text-decoration: none;
+    border-bottom: none;
+    padding-left: 10px;
+}
+
+header nav a:visited{
+    color: #333333;
+}
+
+header nav a:hover{
+    color: #333333;
+    font-weight: 400;
+}
+
+
+.homePage{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    justify-items: flex-start;
+    flex-direction: column;
+    height: fit-content;
+    padding: 120px 20px 120px 20px;
+}
+
+.homePage h3{
+    width: 100%;
+    max-width: 800px;
+}
+
+.homePage a{
+    width: 120px;
+}
+.fotoMe{
+    width: 00px;
+    align-self: stretch;
+}
+
+.projects{
+    margin: 10px 0px 0px 0px;
+}
+
+article{
+    padding: 0px 20px;
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+article h3{
+    font-size: 16px;
+}
+
+
+article img{
+    height: auto;
+    max-width: 90%;
+    align-self: center;
+    max-height: 360px;
+    width: auto;
+}
+
+.pilsBox{
+    display: flex;
+}
+
+.pil{
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 28px;
+    font-weight: 200;
+    margin: 5px 10px 0px 0px;
+    font-size: 12px;
+    width: fit-content;
+    color:#333;
+}
+
+footer{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 0px;
+}
+
+footer a{
+    border: none;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.logosSocial{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.logosSocial a{
+    margin-right: 10px;
+}
+
+footer img{
+    margin-bottom: 10px;
+}
+
+.aboutMe{
+    padding: 80px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #333333;
+    text-align: left;
+}
+
+.aboutMe img{
+    width: 60%;
+    display: block;
+    margin: 40px auto;
+    max-width: 300px;
+}
+
+.contact{
+    padding: 80px 20px;
+    font-weight: 300;
+    color: #333333;
+    text-align: left;
+}
+
+.contact img{
+    width: 0px;
+}
+
+.contact h3{
+    font-size: 24px;
+}
+
+.contact h1{
+    font-size: 52px;
+}
+
+input{
+    width: 90%;
+    max-width: 500px;
+    padding: 12px 0px;
+    border: none;
+    border-bottom:1px solid #8d8d8d;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 12px
+
+}
+
+textarea{
+    width: 90%;
+    max-width: 500px;
+    border:none;
+    padding: 0px 0px;
+    border-bottom: 1px solid #8d8d8d;
+    margin-bottom: 10px;
+    height: 100px;
+    resize: none;
+    font-size: 16px;
+    font-family: 'lato', sans-serif;
+    font-weight: 1000px;
+    columns: #333333;
+    padding:12px;
+}
+
+label{
+    font-size: 14px;
+    padding-bottom: 4px;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .homePage{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .projects h4{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    article {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 60px;
+    }
+
+    article .pilsBox{
+        margin-bottom: 10px;
+    }
+
+    footer{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .aboutMe p{
+        font-size: 16px;
+    }
+
+    .aboutMe{
+        padding-left: 80px;
+        padding-right: 80px;
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        grid-template-columns: 80px 250px 300px auto;
+        grid-template-rows:200px 400px;
+        grid-template-areas: 
+        ". tittle tittle ."
+        ". photo text .";
+    }
+
+    .aboutMe h1{
+        grid-area: tittle;
+        padding: 30px 0px;
+    }
+
+    .aboutMe img{
+        margin: 0px 0px;
+        grid-area: photo;
+        height: 300px;
+        width: auto;
+    }
+
+    .aboutMe p{
+        grid-area: text;
+    }
+
+.contact {
+margin: 0px auto;
+width: 500px;
+display: block;
+}
+
+.contact h1{
+    text-align: center;
+}
+}
+
+
+@media (min-width: 1024px) {
+    .homePage{
+        padding: 0px 0px;
+        display: grid;
+        grid-template-columns: 5% 55% 40%;
+        grid-template-rows: 180px 130px 160px 60px 180px;
+        grid-template-areas: 
+            ". . ."    
+            ". tittle photo "
+            ". text photo"
+            ". button photo"
+            ". . photo";
+        }
+    
+        .homePage h1 {
+            grid-area: tittle;
+        }
+
+        .homePage h3 {
+            grid-area: text;
+            padding-top: 10px;
+        }
+
+        .homePage a {
+            grid-area: button;
+        }
+
+        .fotoMe{
+            grid-area: photo;
+            width: 600px;
+            justify-self: end;
+        }
+
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    article{
+        width: 400px;
+
+    }
+
+    h4{
+        padding-left: 80px;
+    }
+
+    .aboutMe{
+        padding-left: 80px;
+        padding-right: 80px;
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        grid-template-columns: 80px 320px 500px auto;
+        grid-template-rows:200px 400px;
+        grid-template-areas: 
+        ". tittle tittle ."
+        ". photo text .";
+    }
+
+    .aboutMe img{
+        margin: 0px 0px;
+        grid-area: photo;
+        height: 400px;
+        width: auto;
+        align-self: flex-start;
+    }
+
+    .aboutMe p{
+        align-self: flex-start;
+    }
+
+
+    .contact{
+        display: grid;
+        margin: 0px auto;
+        justify-items: center;
+        justify-content: center;
+        grid-template-columns: 320px 600px;
+        grid-template-rows:200px 500px;
+        grid-template-areas: 
+        "tittle tittle"
+        "photo input";
+    }
+
+    .contact img{
+        width: 320px;
+        grid-area: photo;
+        justify-self: start;
+    }
+
+    .contact h1{
+        grid-area: tittle;
+    }
+
+    .contact .input{
+        grid-area: input;
+        justify-self: end;
+    }
+}
